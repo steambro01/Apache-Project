@@ -1,0 +1,53 @@
+body{
+   background-color: black;
+   color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: larger;
+}
+ul li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+}
+ #secondHr{
+    /* this fixes second line break in nav from being above links */
+    margin-top: 65px; 
+ }
+
+ #projects{
+    border: 10px solid black;
+    display: flex;
+    margin-bottom: 50px;
+ }
+ #projects ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ #projects li{
+    margin: 20px;
+ }
+
+ /* This keeps all of the project images at a fixed size */
+ #projects ul li img{
+   width: 350px;
+   height: 350px;
+ }
+ #projects li figcaption{
+    text-align: center;
+ }
+
+ footer{
+    text-align: center;
+    font-size: larger;
+    color: red;
+ }
