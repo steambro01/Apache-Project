@@ -41,8 +41,8 @@ nav ul{
 
  /* This keeps all of the project images at a fixed size */
  #projects ul li img{
-   width: 350px;
-   height: 350px;
+   width: 450px;
+   height: 250px;
  }
  #projects li figcaption{
     text-align: center;
